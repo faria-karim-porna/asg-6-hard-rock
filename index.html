@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hard Rock Solution - Song Lyric App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar  navbar-dark my-3">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Hard Rock Solution">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/toggler-icon.svg" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="content-area">
+            <div class="search-bar col-md-6 mx-auto">
+                <h1 class="text-center">Lyrics Search</h1>
+                <div class="search-box my-5">
+                    <input type="text" class="form-control" id="input-song-name" placeholder="Enter your artist song name">
+                    <button class="btn btn-success search-btn" id="search-button">Search</button>
+                </div>
+            </div>
+            <!-- === Simple results === -->
+            <div class="d-flex justify-content-center">
+                <div class="" id="simple-result">
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    <p class="author lead"><strong class="simple-song-name"></strong> Album by <span class="simple-singer-name"></span> <button class="btn btn-success simple-get-lyrics">Get Lyrics</button></p>
+                    
+                </div>
+            </div>
+            <!-- Single Lyrics -->
+            <div class="single-lyrics text-center" id="lyrics-section">
+                <button class="btn go-back">&lsaquo;</button>
+                <h2 class="text-success mb-4" id="lyrics-name">Pentatonix - Na Na Na</h2>
+                <pre class="lyric text-white" id="lyrics">
+
+                </pre>
+            </div>
+            <!-- === Fancy results === -->
+            <div class="search-result col-md-8 mx-auto py-4" id="fancy-result">
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                <!-- single result -->
+                <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+                 <!-- single result -->
+                 <div class="single-result row align-items-center my-3 p-3">
+                    <div class="col-md-9">
+                        <img src="" class="img-fluid images" alt="Responsive image">
+                        <h3 class="lyrics-name fancy-song-name"></h3>
+                        <p class="author lead">Album by <span class="fancy-singer-name"></span></p>
+                    </div>
+                    <div class="col-md-3 text-md-right text-center">
+                        <button class="btn btn-success fancy-get-lyrics">Get Lyrics</button>
+                    </div>
+                </div>
+                <!-- ./ single result -->
+
+                
+                <!-- ./ single result -->
+            </div>
+
+<script>
+
+    
+    const inputSong = document.getElementById("input-song-name");
+    const searchButton = document.getElementById("search-button");
+
+    const simpleResult = document.getElementById("simple-result");
+    const simpleSongName = document.getElementsByClassName("simple-song-name");
+    const simpleSingerName = document.getElementsByClassName("simple-singer-name");
+    const simpleGetLyricsButtons = document.getElementsByClassName('simple-get-lyrics');
+
+    const fancyResult = document.getElementById("fancy-result");
+    const fancySongName = document.getElementsByClassName("fancy-song-name");
+    const fancySingerName = document.getElementsByClassName("fancy-singer-name");
+    const fancyGetLyricsButtons = document.getElementsByClassName('fancy-get-lyrics');
+
+    const allImages = document.getElementsByClassName("images");
+    console.log(allImages);
+    allImages[0].src='http://e-cdn-images.deezer.com/images/artist/fa57fb13c77a51c68374f9e98686ee7d/120x120-000000-80-0-0.jpg';
+    const lyricsSection = document.getElementById("lyrics-section");
+
+ 
+
+    // function to take the input and get the search result in both simple and fancy style
+    searchButton.addEventListener("click", function(){
+        if(lyricsSection.style.display != "none"){
+            lyricsSection.style.display = "none";
+        }
+        const searchSong = inputSong.value;
+        fetch(`https://api.lyrics.ovh/suggest/${searchSong}`)
+        .then(response => response.json())
+        .then(data => {
+            for (let index = 0; index < 10; index++) {
+                // to show top ten result in simple style
+                simpleSongName[index].innerText = data.data[index].title;
+                simpleSingerName[index].innerText = data.data[index].artist.name;
+                // to show top ten result in fancy style
+                console.log(data.data[index].artist.picture);
+                allImages[index].src=data.data[index].artist.picture;
+    const lyricsSection = document.getElementById("lyrics-section");
+                fancySongName[index].innerText = data.data[index].title;
+                fancySingerName[index].innerText = data.data[index].artist.name;   
+            }
+            simpleResult.style.display = "block";
+            fancyResult.style.display = "block";
+        })
+    })
+
+        //  function to get the lyrics for the simple style
+        for (let index = 0; index < 10; index++) {
+            const simpleGetLyricsButton= simpleGetLyricsButtons[index];
+            simpleGetLyricsButton.addEventListener("click", function(){
+                const song = simpleSongName[index].innerText;
+                const artist = simpleSingerName[index].innerText;
+
+                fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`)
+                .then(response => response.json())
+                .then(data => {
+                    if(data.lyrics == undefined){
+                        document.getElementById(`lyrics-name`).innerText = song;
+                        document.getElementById(`lyrics`).innerText = "Alert !! no lyrics found";
+                    }
+                    else{
+                        document.getElementById(`lyrics-name`).innerText = song;
+                        document.getElementById(`lyrics`).innerText = data.lyrics;
+                    }
+                    lyricsSection.style.display="block"; 
+                })
+        })
+    }
+
+    //  function to get the lyrics for the fancy style
+    for (let index = 0; index < 10; index++) {
+        const fancyGetLyricsButton = fancyGetLyricsButtons[index];
+        fancyGetLyricsButton.addEventListener("click", function(){
+            const song = fancySongName[index].innerText;
+            const artist = fancySingerName[index].innerText;
+
+            fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`)
+            .then(response => response.json())
+            .then(data => {
+                if(data.lyrics == undefined){
+                    document.getElementById(`lyrics-name`).innerText = song;
+                    document.getElementById(`lyrics`).innerText = "Alert !! no lyrics found";
+                }
+                else{
+                    document.getElementById(`lyrics-name`).innerText = song;
+                    document.getElementById(`lyrics`).innerText = data.lyrics;
+                }
+                lyricsSection.style.display = "block"; 
+            })
+        })
+    }
+
+
+</script>
+
+        </main>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script Here -->
+
+</body>
+
+</html>
